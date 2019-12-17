@@ -26,3 +26,10 @@ class Solution(object):
                 return [dic[sub],index]
             else:
                 dic[value] = index
+        """      
+        for index, num in enumerate(nums):
+            for i in range(len(nums)):
+                if i!=index:
+                    if num+nums[i]==target:
+                        return index,i
+        """
